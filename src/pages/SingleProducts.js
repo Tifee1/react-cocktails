@@ -8,7 +8,7 @@ const SingleProducts = () => {
   const [loading, setLoading] = useState(true);
   const [cocktail, setCocktail] = useState(null);
 
-  document.title = `${cocktail.name ? cocktail.name : 'Cocktail DB'}`;
+  document.title = `${cocktail.name} || Cocktail DB`;
   const { cocktailId } = useParams();
 
   const fetchData = React.useCallback(async () => {
