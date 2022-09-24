@@ -20,6 +20,7 @@ const SingleProducts = () => {
         const tempDrink = data.drinks[0];
         const {
           strDrink,
+          strGlass,
           strInstructions,
           strCategory,
           strDrinkThumb,
@@ -42,6 +43,7 @@ const SingleProducts = () => {
           cat: strCategory,
           img: strDrinkThumb,
           ingre,
+          glass: strGlass,
         };
         setCocktail(drink);
       } else {
